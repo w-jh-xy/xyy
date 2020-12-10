@@ -1,0 +1,4 @@
+E:\C\code\n jiecheng\strlen\Debug\strlen.exe
+E:\C\code\n jiecheng\strlen\Debug\strlen.pdb
+E:\C\code\my code\strlen\Debug\strlen.exe
+E:\C\code\my code\strlen\Debug\strlen.pdb
