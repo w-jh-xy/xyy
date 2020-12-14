@@ -1,0 +1,3 @@
+﻿  test_12_14_1.c
+E:\C\code\my code\test12_14_1\test_12_14_1.c(19): warning C4716: “bubble”: 必须返回一个值
+  test12_14_1.vcxproj -> E:\C\code\my code\test12_14_1\Debug\test12_14_1.exe
