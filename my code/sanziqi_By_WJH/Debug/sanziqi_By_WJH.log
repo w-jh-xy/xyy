@@ -1,0 +1,4 @@
+﻿  sanziqi.c
+E:\C\code\my code\sanziqi_By_WJH\sanziqi.c(62,11): warning C4013: “Isok”未定义；假设外部返回 int
+E:\C\code\my code\sanziqi_By_WJH\sanziqi.c(110,13): warning C4013: “Isfull”未定义；假设外部返回 int
+  sanziqi_By_WJH.vcxproj -> E:\C\code\my code\sanziqi_By_WJH\Debug\sanziqi_By_WJH.exe
