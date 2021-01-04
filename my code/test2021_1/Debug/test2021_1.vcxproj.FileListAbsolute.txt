@@ -1,0 +1,2 @@
+E:\C\code\my code\test2021_1\Debug\test2021_1.exe
+E:\C\code\my code\test2021_1\Debug\test2021_1.pdb
