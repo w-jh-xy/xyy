@@ -1,0 +1,4 @@
+﻿  test1_6.c
+E:\C\code\my code\test1_6\test1_6.c(23,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\C\code\my code\test1_6\test1_6.c(25,17): warning C4018: “<”: 有符号/无符号不匹配
+  test1_6.vcxproj -> E:\C\code\my code\test1_6\Debug\test1_6.exe
