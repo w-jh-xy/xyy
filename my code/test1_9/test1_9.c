@@ -51,10 +51,29 @@
 //}
 
 #include<stdio.h>
-void* my_memmove(void* dest,const void* source,size_t num)
+void* my_memmove(void * dest,const void * src,size_t num)
 {
 	void* ret = dest;
-
+	if (dest <= src || (char*)src + num)   //目的地址不溢出
+	{
+		while (num--)
+		{
+			*(char*)dest = *(char*)src;
+			dest = (char*)dest + 1;
+			src = (char*)src + 1;
+		}
+	}
+	else
+	{
+		dest = (char*)dest + num - 1;
+		src = (char*)src + num - 1;
+		while (num--)
+		{
+			*(char*)dest = *(char*)src;
+			dest = (char*)dest - 1;
+			src = (char*)src - 1;
+		}
+	}
 }
 int main()
 {
