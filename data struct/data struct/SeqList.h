@@ -23,6 +23,7 @@ void SeqListClear(SeqList* pst);
 void SeqListDestroy(SeqList* pst);
 int SeqListFind(SeqList* pst, ElemType key);
 void SeqListSort(SeqList* pst);
+void SeqListInsert(SeqList* ps, size_t pos, ElemType x);
 void SeqListDeleteByVal(SeqList* pst, ElemType key);
 void SeqListDeleteByPos(SeqList* pst, int pos);
 
@@ -163,6 +164,25 @@ void SeqListSort(SeqList* pst)
 			}
 		}
 	}
+}
+
+void SeqListInsert(SeqList* ps, size_t pos, ElemType x)
+{
+	assert(ps);
+	assert(pos <= ps->size);
+	if (IsFull(ps))
+	{
+		printf("顺序表已满，不能插入！");
+		return;
+	}
+	size_t i = ps->size;
+	while (i > pos)
+	{
+		ps->base[i] = ps->base[i - 1];
+		--i;
+	}
+	ps->base[pos] = x;
+	ps->size++;
 }
 
 void SeqListDeleteByVal(SeqList* pst, ElemType key)

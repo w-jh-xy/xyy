@@ -55,7 +55,7 @@ int main()
 			printf("表的容量为:>%d\n", SeqListCapacity(&mylist));
 			break;
 		case 8:
-			printf("请输入")
+			printf("请输入");
 		case 10:
 			printf("请输入要删除的值:>");
 			scanf("%d", &key);
