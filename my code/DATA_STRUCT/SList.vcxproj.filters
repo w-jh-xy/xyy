@@ -21,6 +21,24 @@
     <ClInclude Include="Sysutil.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="seqlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DCList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="haep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">

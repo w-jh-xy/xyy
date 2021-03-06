@@ -24,6 +24,7 @@
     <ProjectGuid>{71e5fcc8-edbf-40fc-b0ce-7e2d79ea4e28}</ProjectGuid>
     <RootNamespace>SList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DATA_STRUCT</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,8 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DCList.h" />
+    <ClInclude Include="haep.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="seqlist.h" />
     <ClInclude Include="SList.h" />
+    <ClInclude Include="stack.h" />
     <ClInclude Include="Sysutil.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
