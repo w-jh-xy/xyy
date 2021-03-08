@@ -1,0 +1,7 @@
+﻿  test23.c
+E:\C\code\my code\test23\test23.c(4,22): warning C4013: “malloc”未定义；假设外部返回 int
+E:\C\code\my code\test23\test23.c(4,41): warning C4013: “fmax”未定义；假设外部返回 int
+E:\C\code\my code\test23\test23.c(4,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+E:\C\code\my code\test23\test23.c(38,28): warning C4047: “<”:“int”与“int *”的间接级别不同
+E:\C\code\my code\test23\test23.c(32,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+  test23.vcxproj -> E:\C\code\data struct\data struct\Debug\test23.exe
