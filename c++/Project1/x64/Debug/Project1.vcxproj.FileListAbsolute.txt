@@ -1,0 +1,2 @@
+E:\C\code\c++\Project1\x64\Debug\Date.exe
+E:\C\code\c++\Project1\x64\Debug\Date.pdb
