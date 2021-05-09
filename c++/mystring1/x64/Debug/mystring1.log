@@ -1,0 +1,3 @@
+﻿  mystring1.cpp
+E:\C\code\c++\mystring1\mystring1.cpp(103,1): warning C4326: “main”的返回类型应为“int”而非“void”
+  mystring1.vcxproj -> E:\C\code\c++\MyList\x64\Debug\mystring1.exe

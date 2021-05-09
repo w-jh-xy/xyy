@@ -1,0 +1,2 @@
+E:\C\code\c++\mystring1\Debug\mystring1.exe
+E:\C\code\c++\mystring1\Debug\mystring1.pdb
